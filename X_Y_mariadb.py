@@ -8,7 +8,6 @@ Created on Fri Jul  8 11:33:26 2022
 import mysql.connector
 
 
-
 def database():
     mydb = mysql.connector.connect(
       host="localhost",
